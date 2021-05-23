@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="hidraw", ATTRS{idProduct}=="c52b", ATTRS{idVendor}=="046d", RUN+="/home/muzuwi/touchpad_sense.sh"
+
